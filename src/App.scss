@@ -1,0 +1,201 @@
+body {
+    margin: 0px;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+
+    .one {
+        grid-column: 1/4;
+        grid-row: 1;
+    }
+
+    .two {
+        grid-column: 2 / 3;
+        grid-row: 2/4;
+    }
+
+    .three {
+        grid-column: 1/3;
+        grid-row: 3 / 5;
+    }
+
+    .four {
+        grid-column: 1/3;
+        grid-row: 4;
+    }
+
+}
+
+
+.app-header {
+    color: white;
+    background-image: url('./assets/img/background-footer.svg');
+
+    ul {
+        list-style-type: none;
+    }
+
+    .left {
+        width: 30%;
+    }
+
+    .right {
+        display: inline-flex;
+    }
+
+    .right li {
+        padding: 5px 15px;
+    }
+
+    .right li {
+        padding: 5px 15px;
+    }
+
+}
+
+.app-container {
+    .notice {
+        background-color: #EBEBEB;
+        padding: 10px 30px;
+        margin-top: 10px;
+        display: flex;
+        color: #4F4F4F;
+
+        .col {
+            flex: 1;
+        }
+
+        .first {
+            min-width: 200px;
+        }
+
+        .title {
+            font-size: 20px;
+        }
+
+        .bold {
+            font-weight: 900;
+            font-size: 30px;
+            color: #333333;
+        }
+
+        .detail {
+            margin-top: 1.6rem;
+        }
+
+        .close {
+            min-width: 30px;
+
+            span {
+                vertical-align: middle;
+            }
+        }
+
+    }
+}
+
+.app-card {
+    background-image: url('./assets/img/kenye.png');
+    background-size: cover;
+    border: solid 1px red;
+    min-width: 400px;
+    min-height: 600px;
+    max-width: 600px;
+    max-height: 800px;
+    color: white;
+
+    .name {
+        margin-top: 300px;
+
+        .vote {
+            display: inline-block;
+        }
+
+        .label {
+            display: inline-block;
+        }
+
+        h2 {
+            margin-bottom: 10px;
+            font-size: 45px;
+        }
+    }
+
+    .caption{
+        margin-left: 30px;
+    }
+
+    .date {
+        font-weight: bold;
+    }
+
+    .detail a{
+        margin-right: 10px;
+    }
+
+    .like,
+    .dislike {
+        background-color: #1EBBB4;
+        display: inline-block;
+        padding: 5px;
+
+        img {
+            width: 25px;
+        }
+    }
+
+    .dislike {
+        background-color: #FFAD1C;
+        transform: rotate(-180deg);
+    }
+
+    .vote-btn {
+        border: solid 1px white;
+        background: none;
+        min-height: 25px;
+        padding: 10px;
+        margin-top: -15px;
+    }
+
+}
+
+.app-footer {
+    ul {
+        list-style-type: none;
+    }
+}
+
+
+
+.app-header .App-link {
+    color: #61dafb;
+}
+
+.background-hero {
+    background-image: url('./assets/img/pope1.png');
+    background-size: cover;
+    min-height: 600px;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
