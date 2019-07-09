@@ -3,7 +3,7 @@
 
 ## Live versión
 
-Open [ Your site is published at http://zemoga.ingenieroandresmora.com/]( Your site is published at http://zemoga.ingenieroandresmora.com/) to view it in the browser.
+Open [ Your site is published at http://zemoga.ingenieroandresmora.com/ ]( Your site is published at http://zemoga.ingenieroandresmora.com/) to view it in the browser.
 
 ## Available Scripts
 
