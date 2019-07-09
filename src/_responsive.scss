@@ -13,6 +13,10 @@
             grid-row: 3/4;
         }
     }
+
+    .app-card {    
+        background-size: cover;
+    }
 }
 
 @media only screen and (max-width: 600px) {
