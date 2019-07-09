@@ -1,4 +1,20 @@
 /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 400px) {
+
+    .app-header a{
+        font-size: .8rem;
+    }
+
+    .App div.background-hero {
+        background-size: contain;
+
+        &.wrapper .two {
+            grid-column: 1/4;
+            grid-row: 3/4;
+        }
+    }
+}
+
 @media only screen and (max-width: 600px) {
     .App .background-hero {
         background-size: cover;
@@ -42,7 +58,7 @@
         margin: auto;
     }
 
-    
+
 }
 
 @media only screen and (min-width: 769px) and (max-width:956px) {
